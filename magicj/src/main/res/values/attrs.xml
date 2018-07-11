@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RingPercent">
+        <!--圆环半径-->
+        <attr name="radius" format="dimension"/>
+        <!--进度颜色-->
+        <attr name="progressColor" format="color"/>
+        <!--外圈颜色-->
+        <attr name="ringColor" format="color"/>
+        <!--进度开始角度-->
+        <attr name="startAngle" format="integer"/>
+        <!--圆环宽度-->
+        <attr name="stripeWidth" format="dimension"/>
+
+
+        <!--是否显示中间百分比-->
+        <attr name="centerTextDisplay" format="boolean"/>
+        <!--中间字体颜色-->
+        <attr name="centerTextSize" format="dimension"/>
+        <!--中间字体颜色-->
+        <attr name="centerTextColor" format="color"/>
+
+        <!--是否显示底部文字-->
+        <attr name="bottomTextDisplay" format="boolean"/>
+        <!--底部字体颜色-->
+        <attr name="bottomTextSize" format="dimension"/>
+        <!--底部字体颜色-->
+        <attr name="bottomTextColor" format="color"/>
+    </declare-styleable>
+</resources>

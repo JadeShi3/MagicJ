@@ -1,0 +1,7 @@
+include ':app'
+rootProject.name = 'magicj-root'
+
+include 'magicj'
+include 'magicj-sample'
+
+
